@@ -2,4 +2,4 @@ console.log('Loaded!');
 
 var element = document.getElementById('main-text');
 
-element.innerHTML = 'Hello, Iam Kalyan Uyyala';
+element.innerHTML = "Hello, Iam Kalyan Uyyala";
