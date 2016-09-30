@@ -6,9 +6,17 @@ element.innerHTML = "Hello, Iam Kalyan Uyyala";
 
 //moving the image on click
 var img = document.getElementById('madi');
-madi.onclick = function () {
-    img.style.marginLeft = '100px';
+
+var marginLeft = 0; 
+function moveRight() {
+    marginLeft = marginLeft + 10;
+    img.style.marginLeft = marginLeft + 'px';
 }
+
+madi.onclick = function () {
+    var interval = setInterval(moveRight, 100);
+};
+
 
 
 
